@@ -1,22 +1,14 @@
+/* style.css */
+
 body {
     font-family: 'Montserrat', sans-serif;
     background: linear-gradient(135deg, #f0f4ff 0%, #e6f0ff 100%);
     min-height: 100vh;
 }
 
-/* Style de texte en dégradé (non utilisé dans la version finale, mais conservé) */
-.gradient-text {
-    background: linear-gradient(90deg, #4f46e5, #2563eb);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-/* Surcharge du titre pour une meilleure visibilité sur le fond dégradé */
 .gradient-text-header {
-    color: white; /* Remplacé par une couleur unie pour la lisibilité */
+    color: white;
 }
-
 
 /* Styles des boutons */
 .btn-primary {
@@ -43,15 +35,16 @@ body {
 
 /* Conteneur pour les tables avec barre de défilement */
 .table-container {
-    max-height: 400px; /* Hauteur maximale avant d'afficher le scroll */
-    overflow-y: scroll; /* Affiche la barre de défilement verticale si nécessaire */
+    max-height: 400px;
+    overflow-y: auto; /* Changé pour 'auto' pour être cohérent */
+    overflow-x: auto; /* << CORRECTION : Ajout du scroll horizontal */
     scrollbar-width: thin;
     scrollbar-color: #c7d2fe #f1f1f1;
 }
 
 .table-container::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+    width: 8px; /* Un peu plus large pour être plus facile à saisir */
+    height: 8px;
 }
 
 .table-container::-webkit-scrollbar-track {
@@ -73,5 +66,5 @@ body {
     background-color: #e0e7ff;
     padding: 0 2px;
     border-radius: 2px;
-    font-weight: 600; /* Rendre le terme surligné plus visible */
+    font-weight: 600;
 }
