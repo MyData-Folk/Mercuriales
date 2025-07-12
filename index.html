@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>MERCURIALE – Comparateur & Commande</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased">
+  <div class="min-h-screen flex flex-col items-center justify-center py-8 px-4">
+    <div class="w-full max-w-6xl bg-white rounded-xl shadow-xl overflow-hidden">
+      <header class="bg-gradient-to-r from-indigo-600 to-blue-600 p-6 text-white">
+        <div class="flex items-center justify-between">
+          <div>
+            <h1 class="text-3xl font-bold flex items-center">
+              <i class="fas fa-store-alt mr-3"></i><span>MERCURIALE</span>
+            </h1>
+            <p class="text-blue-100 mt-1">Comparez vos mercuriales, préparez et exportez votre commande fournisseur</p>
+          </div>
+          <div class="hidden md:block">
+            <div class="flex space-x-2">
+              <span class="bg-blue-500 text-xs px-3 py-1 rounded-full flex items-center">
+                <i class="fas fa-database mr-1"></i><span>3 sources</span>
+              </span>
+              <span class="bg-blue-500 text-xs px-3 py-1 rounded-full flex items-center">
+                <i class="fas fa-boxes mr-1"></i><span id="productCount">0 produits</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="p-6">
+        <section class="mb-8">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+            <div class="flex flex-wrap gap-3">
+              <label><input type="checkbox" name="source" value="folkestone" checked class="source-checkbox"> Folkestone</label>
+              <label><input type="checkbox" name="source" value="vendome" checked class="source-checkbox"> Vendôme</label>
+              <label><input type="checkbox" name="source" value="washington" checked class="source-checkbox"> Washington</label>
+            </div>
+            <select id="searchField" class="search-select">
+              <option value="all" selected>Tous les champs</option>
+              <option value="Libellé produit">Libellé produit</option>
+              <option value="Marque">Marque</option>
+              <option value="Code Produit">Code Produit</option>
+            </select>
+          </div>
+
+          <div class="relative">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <i class="fas fa-search text-gray-400"></i>
+            </div>
+            <input type="text" id="searchInput" placeholder="Rechercher un produit..." class="search-input">
+          </div>
+        </section>
+
+        <section class="mb-8">
+          <h2 class="section-title"><i class="fas fa-search mr-2 text-indigo-500"></i> Résultats de recherche</h2>
+          <div id="searchResults" class="table-container"></div>
+        </section>
+
+        <section>
+          <div class="flex items-center justify-between mb-3">
+            <h2 class="section-title"><i class="fas fa-shopping-cart mr-2 text-indigo-500"></i> Ma commande <span id="orderCount" class="order-count">0</span></h2>
+            <div class="flex space-x-2">
+              <button id="downloadCsvBtn" disabled class="btn-primary"><i class="fas fa-file-csv mr-2"></i> CSV</button>
+              <button id="downloadXlsxBtn" disabled class="btn-primary"><i class="fas fa-file-excel mr-2"></i> Excel</button>
+            </div>
+          </div>
+          <div id="orderList" class="table-container"></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between text-sm text-gray-500">
+          <div class="flex items-center justify-center md:justify-start mb-2 md:mb-0">
+            <i class="fas fa-info-circle mr-2"></i><span>© 2025 MERCURIALE – MyData-Folk</span>
+          </div>
+          <div class="flex items-center justify-center md:justify-end space-x-4">
+            <a href="#"><i class="fas fa-question-circle mr-1"></i> Aide</a>
+            <a href="#"><i class="fas fa-cog mr-1"></i> Paramètres</a>
+            <a href="#"><i class="fas fa-envelope mr-1"></i> Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
