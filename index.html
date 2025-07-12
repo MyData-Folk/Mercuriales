@@ -15,9 +15,11 @@
 </head>
 <body class="antialiased">
     <div class="min-h-screen flex flex-col items-center justify-center py-8 px-4">
-        <div class="w-full max-w-6xl bg-white rounded-xl shadow-xl overflow-hidden">
+        <!-- CORRECTION : max-w-7xl pour plus de largeur, et suppression de overflow-hidden -->
+        <div class="w-full max-w-7xl bg-white rounded-xl shadow-xl">
             <!-- Header -->
-            <div class="bg-gradient-to-r from-indigo-600 to-blue-600 p-6 text-white">
+            <!-- CORRECTION : rounded-t-xl pour que les coins suivent le parent -->
+            <div class="bg-gradient-to-r from-indigo-600 to-blue-600 p-6 text-white rounded-t-xl">
                 <div class="flex items-center justify-between">
                     <div>
                         <h1 class="text-3xl font-bold flex items-center">
@@ -86,7 +88,7 @@
                         <i class="fas fa-search mr-2 text-indigo-500"></i>
                         Résultats de recherche
                     </h2>
-                    <div id="searchResults" class="table-container border border-gray-200 rounded-lg overflow-hidden">
+                    <div id="searchResults" class="border border-gray-200 rounded-lg">
                         <p class="text-center text-gray-500 py-8 px-4">
                             Commencez à taper pour rechercher dans les mercuriales sélectionnées.
                         </p>
@@ -102,18 +104,18 @@
                             <span id="orderCount" class="ml-2 bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">0</span>
                         </h2>
                         <div class="flex space-x-2">
-                            <button id="downloadCsvBtn" disabled class="btn-primary text-white px-4 py-2 rounded-md text-sm font-medium flex items-center">
+                            <button id="downloadCsvBtn" disabled class="btn-primary text-white px-4 py-2 rounded-md text-sm font-medium flex items-center disabled:opacity-50 disabled:cursor-not-allowed">
                                 <i class="fas fa-file-csv mr-2"></i>
                                 CSV
                             </button>
-                            <button id="downloadXlsxBtn" disabled class="btn-primary text-white px-4 py-2 rounded-md text-sm font-medium flex items-center">
+                            <button id="downloadXlsxBtn" disabled class="btn-primary text-white px-4 py-2 rounded-md text-sm font-medium flex items-center disabled:opacity-50 disabled:cursor-not-allowed">
                                 <i class="fas fa-file-excel mr-2"></i>
                                 Excel
                             </button>
                         </div>
                     </div>
                     
-                    <div id="orderList" class="table-container border border-gray-200 rounded-lg overflow-hidden">
+                    <div id="orderList" class="border border-gray-200 rounded-lg">
                         <p class="text-center text-gray-500 py-8 px-4">
                             Aucun article ajouté pour le moment. Cliquez sur "Ajouter" dans les résultats de recherche.
                         </p>
@@ -122,7 +124,8 @@
             </div>
 
             <!-- Footer -->
-            <div class="bg-gray-50 px-6 py-4 border-t border-gray-200">
+            <!-- CORRECTION : rounded-b-xl pour que les coins suivent le parent -->
+            <div class="bg-gray-50 px-6 py-4 border-t border-gray-200 rounded-b-xl">
                 <div class="flex flex-col md:flex-row md:items-center md:justify-between text-sm text-gray-500">
                     <div class="flex items-center justify-center md:justify-start mb-2 md:mb-0">
                         <i class="fas fa-info-circle mr-2"></i>
