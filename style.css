@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #f0f4ff 0%, #e6f0ff 100%);
+    min-height: 100vh;
+}
+
+/* Style de texte en dégradé (non utilisé dans la version finale, mais conservé) */
+.gradient-text {
+    background: linear-gradient(90deg, #4f46e5, #2563eb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Surcharge du titre pour une meilleure visibilité sur le fond dégradé */
+.gradient-text-header {
+    color: white; /* Remplacé par une couleur unie pour la lisibilité */
+}
+
+
+/* Styles des boutons */
+.btn-primary {
+    background: linear-gradient(135deg, #4f46e5, #2563eb);
+    transition: all 0.2s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+/* Conteneur pour les tables avec barre de défilement */
+.table-container {
+    max-height: 400px; /* Hauteur maximale avant d'afficher le scroll */
+    overflow-y: scroll; /* Affiche la barre de défilement verticale si nécessaire */
+    scrollbar-width: thin;
+    scrollbar-color: #c7d2fe #f1f1f1;
+}
+
+.table-container::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: #c7d2fe;
+    border-radius: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #a5b4fc;
+}
+
+/* Surlignage pour le terme recherché */
+.search-highlight {
+    background-color: #e0e7ff;
+    padding: 0 2px;
+    border-radius: 2px;
+    font-weight: 600; /* Rendre le terme surligné plus visible */
+}
