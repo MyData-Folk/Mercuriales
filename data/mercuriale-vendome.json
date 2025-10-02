@@ -52,6 +52,19 @@
     "DLC garantie au client": "30 jour(s)"
   },
   {
+    "Rayon": "Charcuterie Traiteur",
+    "Libellé produit": "Jambon supérieur tranché dd. cuit au torchon vpf",
+    "Marque": "MADRANGE",
+    "Code Produit": "034280",
+    "Température": "Frais",
+    "Conditionnement": "Portion de 50 g. Sachet de 10 portions.",
+    "Unité de commande": "sachet",
+    "Prix": "7,28 EUR",
+    "Prix à l'unité de mesure": "14,55 EUR / kg",
+    "Prix à la portion": "0,73 EUR / Portion",
+    "DLC garantie au client": "7 jour(s)"
+  },
+  {
     "Rayon": "Crèmerie Œufs Fromages",
     "Libellé produit": "Emmental 29 % m.g.",
     "Marque": "ENTREMONT",
@@ -169,6 +182,19 @@
     "DLC garantie au client": "7 jour(s)"
   },
   {
+    "Rayon": "Pains Viennoiserie Pâtes",
+    "Libellé produit": "Pain de mie complet. dimension 10 x 10 cm. 24 tranches",
+    "Marque": "HARRYS FOOD SERVICE",
+    "Code Produit": "101655",
+    "Température": "Ambiant",
+    "Conditionnement": "Paquet de 500 g. Colis de 8 paquets.",
+    "Unité de commande": "colis",
+    "Prix": "19,50 EUR",
+    "Prix à l'unité de mesure": "4,87 EUR / kg",
+    "Prix à la portion": "2,44 EUR / paquet",
+    "DLC garantie au client": "7 jour(s)"
+  },
+  {
     "Rayon": "Pâtisserie Biscuiterie Confiserie",
     "Libellé produit": "Palet breton pur beurre. pièce de 15 g",
     "Marque": "KER CADELAC",
@@ -244,6 +270,19 @@
     "Prix": "2,68 EUR",
     "Prix à l'unité de mesure": "3,16 EUR / kg",
     "Prix à la portion": "32,20 EUR / colis",
+    "DLC garantie au client": "30 jour(s)"
+  },
+  {
+    "Rayon": "Épicerie",
+    "Libellé produit": "Sirop d'érable",
+    "Marque": "MAPLE JOE",
+    "Code Produit": "113613",
+    "Température": "Ambiant",
+    "Conditionnement": "Par bouteille de 250 ml. Colis de 12 bouteilles.",
+    "Unité de commande": "bouteille",
+    "Prix": "5,46 EUR",
+    "Prix à l'unité de mesure": "21,86 EUR / L",
+    "Prix à la portion": "65,57 EUR / colis",
     "DLC garantie au client": "30 jour(s)"
   },
   {
@@ -429,6 +468,19 @@
     "DLC garantie au client": "7 jour(s)"
   },
   {
+    "Rayon": "Boissons",
+    "Libellé produit": "Jus d'orange pressée",
+    "Marque": "ANDROS",
+    "Code Produit": "204890",
+    "Température": "Frais",
+    "Conditionnement": "Bouteille de 261 ml. Colis de 6 bouteilles.",
+    "Unité de commande": "colis",
+    "Prix": "8,57 EUR",
+    "Prix à l'unité de mesure": "5,48 EUR / L",
+    "Prix à la portion": "1,43 EUR / bouteille",
+    "DLC garantie au client": "7 jour(s)"
+  },
+  {
     "Rayon": "Crèmerie Œufs Fromages",
     "Libellé produit": "Brie 33% m.g.",
     "Marque": "MAUBERT",
@@ -455,6 +507,19 @@
     "DLC garantie au client": "30 jour(s)"
   },
   {
+    "Rayon": "Épicerie",
+    "Libellé produit": "chips nature. au sel de guérande",
+    "Marque": "BRET'S",
+    "Code Produit": "206934",
+    "Température": "Ambiant",
+    "Conditionnement": "Sachet de 30 g. Colis de 100 sachets.",
+    "Unité de commande": "colis",
+    "Prix": "38,90 EUR",
+    "Prix à l'unité de mesure": "12,97 EUR / kg",
+    "Prix à la portion": "0,39 EUR / sachet",
+    "DLC garantie au client": "30 jour(s)"
+  },
+  {
     "Rayon": "Boissons",
     "Libellé produit": "Jus multifruits bib",
     "Marque": "ANDROS",
@@ -478,6 +543,19 @@
     "Prix": "21,60 EUR",
     "Prix à l'unité de mesure": "2,73 EUR / L",
     "Prix à la portion": "0,90 EUR / boite",
+    "DLC garantie au client": "30 jour(s)"
+  },
+  {
+    "Rayon": "Crèmerie Œufs Fromages",
+    "Libellé produit": "Lait concentré non sucré 4%",
+    "Marque": "GLORIA",
+    "Code Produit": "211319",
+    "Température": "Ambiant",
+    "Conditionnement": "Portion de 7.5 g. Colis de 240 portions.",
+    "Unité de commande": "colis",
+    "Prix": "23,13 EUR",
+    "Prix à l'unité de mesure": "12,85 EUR / kg",
+    "Prix à la portion": "0,10 EUR / Portion",
     "DLC garantie au client": "30 jour(s)"
   },
   {
@@ -559,6 +637,19 @@
     "DLC garantie au client": "30 jour(s)"
   },
   {
+    "Rayon": "Boissons",
+    "Libellé produit": "Perrier nature. boite slim de 33 cl",
+    "Marque": "PERRIER",
+    "Code Produit": "225404",
+    "Température": "Ambiant",
+    "Conditionnement": "Portion de 330 ml. Colis de 24 portions.",
+    "Unité de commande": "colis",
+    "Prix": "18,67 EUR",
+    "Prix à l'unité de mesure": "2,36 EUR / L",
+    "Prix à la portion": "0,78 EUR / Portion",
+    "DLC garantie au client": "30 jour(s)"
+  },
+  {
     "Rayon": "Épicerie",
     "Libellé produit": "Figues séchées dépédonculées",
     "Marque": "DAURCES",
@@ -634,6 +725,32 @@
     "Prix": "12,67 EUR",
     "Prix à l'unité de mesure": "1,58 EUR / L",
     "Prix à la portion": "1,58 EUR / brick",
+    "DLC garantie au client": "7 jour(s)"
+  },
+  {
+    "Rayon": "Crèmerie Œufs Fromages",
+    "Libellé produit": "Tomme blanche 27% m.g.",
+    "Marque": "LA VIE DE CHATEAU",
+    "Code Produit": "241998",
+    "Température": "Frais",
+    "Conditionnement": "Portion de 30 g. Barquette de 24 portions.",
+    "Unité de commande": "barquette",
+    "Prix": "10,38 EUR",
+    "Prix à l'unité de mesure": "14,42 EUR / kg",
+    "Prix à la portion": "0,43 EUR / Portion",
+    "DLC garantie au client": "7 jour(s)"
+  },
+  {
+    "Rayon": "Crèmerie Œufs Fromages",
+    "Libellé produit": "Gouda 26% m.g.",
+    "Marque": "LA VIE DE CHATEAU",
+    "Code Produit": "242001",
+    "Température": "Frais",
+    "Conditionnement": "Portion de 30 g. Barquette de 24 portions.",
+    "Unité de commande": "barquette",
+    "Prix": "11,06 EUR",
+    "Prix à l'unité de mesure": "15,37 EUR / kg",
+    "Prix à la portion": "0,46 EUR / Portion",
     "DLC garantie au client": "7 jour(s)"
   },
   {
@@ -894,6 +1011,19 @@
     "Prix": "6,14 EUR",
     "Prix à l'unité de mesure": "10,23 EUR / kg",
     "Prix à la portion": "73,67 EUR / colis",
+    "DLC garantie au client": "30 jour(s)"
+  },
+  {
+    "Rayon": "Épicerie",
+    "Libellé produit": "Biscuit speculoos biscoff. original",
+    "Marque": "LOTUS BISCOFF",
+    "Code Produit": "253008",
+    "Température": "Ambiant",
+    "Conditionnement": "Portion de 6.25 g. Colis de 400 portions.",
+    "Unité de commande": "colis",
+    "Prix": "28,54 EUR",
+    "Prix à l'unité de mesure": "11,42 EUR / kg",
+    "Prix à la portion": "0,07 EUR / Portion",
     "DLC garantie au client": "30 jour(s)"
   },
   {
@@ -1313,6 +1443,19 @@
     "DLC garantie au client": "30 jour(s)"
   },
   {
+    "Rayon": "Équipement Hygiène",
+    "Libellé produit": "Papier cuisson. gn 1/1. dimension 530x325m",
+    "Marque": "LEGAVE",
+    "Code Produit": "301137",
+    "Température": "Ambiant",
+    "Conditionnement": "Boite de 500 portions.",
+    "Unité de commande": "boite",
+    "Prix": "30,70 EUR",
+    "Prix à l'unité de mesure": "",
+    "Prix à la portion": "0,06 EUR / Portion",
+    "DLC garantie au client": ""
+  },
+  {
     "Rayon": "Épicerie",
     "Libellé produit": "Salade 6 fruits",
     "Marque": "TG QUALITY",
@@ -1352,6 +1495,19 @@
     "DLC garantie au client": "30 jour(s)"
   },
   {
+    "Rayon": "Charcuterie Traiteur",
+    "Libellé produit": "Rosette en tranche de 10 gr. 50 tranches",
+    "Marque": "TG QUALITY",
+    "Code Produit": "301398",
+    "Température": "Frais",
+    "Conditionnement": "Portion de 10 g. Barquette de 50 portions.",
+    "Unité de commande": "barquette",
+    "Prix": "5,80 EUR",
+    "Prix à l'unité de mesure": "11,60 EUR / kg",
+    "Prix à la portion": "0,12 EUR / Portion",
+    "DLC garantie au client": "7 jour(s)"
+  },
+  {
     "Rayon": "Boissons",
     "Libellé produit": "Jus de pomme",
     "Marque": "TG QUALITY",
@@ -1375,6 +1531,19 @@
     "Prix": "7,66 EUR",
     "Prix à l'unité de mesure": "",
     "Prix à la portion": "45,95 EUR / colis",
+    "DLC garantie au client": ""
+  },
+  {
+    "Rayon": "Équipement Hygiène",
+    "Libellé produit": "Film alimentaire boîte. distributrice 300x0.30m. avec règlette de découpe à",
+    "Marque": "TG QUALITY",
+    "Code Produit": "301453",
+    "Température": "Ambiant",
+    "Conditionnement": "Colis de 6 boites.",
+    "Unité de commande": "boite",
+    "Prix": "7,71 EUR",
+    "Prix à l'unité de mesure": "",
+    "Prix à la portion": "46,27 EUR / colis",
     "DLC garantie au client": ""
   },
   {
@@ -1431,6 +1600,19 @@
   },
   {
     "Rayon": "Pâtisserie Biscuiterie Confiserie",
+    "Libellé produit": "Sucre poudre",
+    "Marque": "TG QUALITY",
+    "Code Produit": "302223",
+    "Température": "Ambiant",
+    "Conditionnement": "Par sachet de 1 kg. Colis de 10 sachets.",
+    "Unité de commande": "sachet",
+    "Prix": "1,45 EUR",
+    "Prix à l'unité de mesure": "1,45 EUR / kg",
+    "Prix à la portion": "14,52 EUR / colis",
+    "DLC garantie au client": ""
+  },
+  {
+    "Rayon": "Pâtisserie Biscuiterie Confiserie",
     "Libellé produit": "Galette pur beurre x2",
     "Marque": "TG QUALITY",
     "Code Produit": "302302",
@@ -1467,6 +1649,19 @@
     "Prix à l'unité de mesure": "2,43 EUR / kg",
     "Prix à la portion": "22,33 EUR / colis",
     "DLC garantie au client": "30 jour(s)"
+  },
+  {
+    "Rayon": "Crèmerie Œufs Fromages",
+    "Libellé produit": "Yaourt nature danone",
+    "Marque": "DANONE",
+    "Code Produit": "330052",
+    "Température": "Frais",
+    "Conditionnement": "Portion de 115 g. Plaque de 4 portions.",
+    "Unité de commande": "plaque",
+    "Prix": "0,80 EUR",
+    "Prix à l'unité de mesure": "1,73 EUR / kg",
+    "Prix à la portion": "0,20 EUR / Portion",
+    "DLC garantie au client": "7 jour(s)"
   },
   {
     "Rayon": "Desserts Glaces",
@@ -1703,6 +1898,19 @@
     "DLC garantie au client": "7 jour(s)"
   },
   {
+    "Rayon": "Épicerie",
+    "Libellé produit": "Chocos pétales de blé au. chocolat",
+    "Marque": "KELLOGG'S",
+    "Code Produit": "531155",
+    "Température": "Ambiant",
+    "Conditionnement": "Par boite de 580 g. Colis de 16 boites.",
+    "Unité de commande": "boite",
+    "Prix": "7,13 EUR",
+    "Prix à l'unité de mesure": "12,28 EUR / kg",
+    "Prix à la portion": "114,00 EUR / colis",
+    "DLC garantie au client": "30 jour(s)"
+  },
+  {
     "Rayon": "Pains Viennoiserie Pâtes",
     "Libellé produit": "Pain de mie nature. dimension 10x10cm-24 tranches. longue conservation",
     "Marque": "HARRYS FOOD SERVICE",
@@ -1882,6 +2090,19 @@
     "Prix": "10,84 EUR",
     "Prix à l'unité de mesure": "1,81 EUR / L",
     "Prix à la portion": "1,81 EUR / bouteille",
+    "DLC garantie au client": "30 jour(s)"
+  },
+  {
+    "Rayon": "Boissons",
+    "Libellé produit": "Nestlé pure life",
+    "Marque": "NESTLE PURE LIFE",
+    "Code Produit": "950415",
+    "Température": "Ambiant",
+    "Conditionnement": "Portion de 500 ml. Colis de 24 portions.",
+    "Unité de commande": "colis",
+    "Prix": "7,97 EUR",
+    "Prix à l'unité de mesure": "0,66 EUR / L",
+    "Prix à la portion": "0,33 EUR / Portion",
     "DLC garantie au client": "30 jour(s)"
   },
   {
